@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Dan Chiarlone"]
 description = "Provides MSVC's _alloca for the most bare metal of bare metal projects."
 readme = "README.md"
-keywords = ["alloca", "msvc", "dynamic-stack-allocation"]
+keywords = ["msvc", "alloca", "dynamic", "stack", "allocation"]
 repository = "https://github.com/danbugs/msvc-alloca"
 license = "AGPL-3.0"
 
