@@ -1,0 +1,13 @@
+[package]
+name = "msvc-alloca"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dan Chiarlone"]
+description = "Provide MSVC's _alloca for the most bare metal of bare metal projects."
+readme = "README.md"
+keywords = ["alloca", "msvc", "dynamic-stack-allocation"]
+repository = "https://github.com/danbugs/msvc-alloca"
+license = "AGPL-3.0"
+
+[build-dependencies]
+cc = "1.0"
