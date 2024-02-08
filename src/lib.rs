@@ -1,6 +1,5 @@
 #![no_std]
 
-#[cfg(windows)]
 extern "C" {
     fn _alloca_wrapper(size: usize) -> *mut u8;
 }
