@@ -1,3 +1,8 @@
 void* _alloca_wrapper(size_t size) {
-    return _alloca(size);
+    int vla[size];
+
+    // initialize w/ 0
+    for (int i = 0; i < size; i++) {
+        vla[i] = 0;
+    }
 }
